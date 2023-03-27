@@ -1,0 +1,31 @@
+.square{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 140vh;
+  padding-top: 300px;
+  box-sizing: border-box;
+}
+
+.square p {
+  font-size: 10rem;
+  font-weight: bold;
+}
+
+.square__shape {
+  display: inline-block;
+  /* position: relative; */
+  width: 300px;
+  height: 300px;
+}
+
+.square__shape svg {
+  fill: #fff;
+  position: absolute;
+  top: -385px;
+  left: -544px;
+  right: 0;
+  bottom: 0;
+  margin: auto; 
+}
+

@@ -1,0 +1,18 @@
+.text-glide{
+  height: 200vh;
+  background-color:burlywood;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+.text-glide p {
+  font-size: 20rem;
+  font-weight: bold;
+  white-space: nowrap;
+  line-height: 70%;
+}
